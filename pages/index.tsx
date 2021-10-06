@@ -314,7 +314,9 @@ export default function Room() {
       })}
     >
       <div className="fixed inset-0 flex justify-center items-center select-none bg-white">
-        <div className="text-center max-w-sm">
+          <div className="text-center max-w-sm">
+            <h1> <strong>Holi </strong> 👋</h1>
+            <p>Prueba los comandos con tu teclado ⬇️</p>
           <ul className="flex items-center justify-center space-x-2 mt-4">
             <li className="flex items-center space-x-2 text-sm bg-gray-100 rounded-md py-2 px-3">
               <span>Reactions</span>
@@ -336,7 +338,7 @@ export default function Room() {
                 esc
               </span>
             </li>
-          </ul>
+            </ul>
         </div>
       </div>
 
